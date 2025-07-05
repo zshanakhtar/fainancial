@@ -1,0 +1,16 @@
+{
+    "folders": [
+        {
+            "name": "backend",
+            "path": "../KnowledgeBuilder"
+        },
+        {
+            "name": "frontend",
+            "path": "../frontend"
+        },
+        {
+            "name": "root",
+            "path": "../"
+        }
+    ]
+}
