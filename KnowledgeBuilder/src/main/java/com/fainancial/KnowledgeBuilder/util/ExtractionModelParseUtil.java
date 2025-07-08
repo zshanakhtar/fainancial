@@ -18,9 +18,9 @@ public class ExtractionModelParseUtil {
             if (fileContent != null && !fileContent.isEmpty()) {
                 String[] lines = fileContent.split(FileConstants.RULE_DESCRIPTION_SEPARATOR_REGEX);
                 if (lines.length == 3) {
-                    extractionModel.setDescription(safeTrim(lines[0]));
-                    extractionModel.setRule(safeTrim(lines[1]));
-                    extractionModel.setContext(safeTrim(lines[2]));
+                    extractionModel.setDescription(cleanRule(safeTrim(lines[0])));
+                    extractionModel.setRule(cleanRule(safeTrim(lines[1])));
+                    extractionModel.setContext(cleanRule(safeTrim(lines[2])));
                 }
             } else {
                 throw new Exception("File content is empty or null. Cannot populate ExtractionModel Object.");
@@ -60,6 +60,10 @@ public class ExtractionModelParseUtil {
         return Optional.ofNullable(value)
                 .map(String::trim)
                 .orElse("");
+    }
+
+    public String cleanRule(String rule) {
+        return rule.replaceAll(FileConstants.RULE_CLEANER, "");
     }
 
 }
