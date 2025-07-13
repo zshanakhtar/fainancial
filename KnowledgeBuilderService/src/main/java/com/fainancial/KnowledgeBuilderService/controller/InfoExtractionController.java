@@ -1,7 +1,7 @@
-package com.fainancial.KnowledgeBuilder.controller;
+package com.fainancial.KnowledgeBuilderService.controller;
 
-import com.fainancial.KnowledgeBuilder.model.ExtractionModelWrapper;
-import com.fainancial.KnowledgeBuilder.service.InfoExtractionService;
+import com.fainancial.KnowledgeBuilderService.model.ExtractionModelWrapper;
+import com.fainancial.KnowledgeBuilderService.service.InfoExtractionService;
 import io.swagger.v3.oas.annotations.Operation;
 
 import org.neo4j.driver.AuthTokens;

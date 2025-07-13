@@ -1,4 +1,4 @@
-package com.fainancial.KnowledgeBuilder.model;
+package com.fainancial.KnowledgeBuilderService.model;
 
 import lombok.Data;
 

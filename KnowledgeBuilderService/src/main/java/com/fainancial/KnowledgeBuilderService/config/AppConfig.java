@@ -1,4 +1,4 @@
-package com.fainancial.KnowledgeBuilder.config;
+package com.fainancial.KnowledgeBuilderService.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

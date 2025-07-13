@@ -1,9 +1,9 @@
-package com.fainancial.KnowledgeBuilder.service;
+package com.fainancial.KnowledgeBuilderService.service;
 
-import com.fainancial.KnowledgeBuilder.constants.FileConstants;
-import com.fainancial.KnowledgeBuilder.model.ExtractionModel;
-import com.fainancial.KnowledgeBuilder.model.ExtractionModelWrapper;
-import com.fainancial.KnowledgeBuilder.util.ExtractionModelParseUtil;
+import com.fainancial.KnowledgeBuilderService.constants.FileConstants;
+import com.fainancial.KnowledgeBuilderService.model.ExtractionModel;
+import com.fainancial.KnowledgeBuilderService.model.ExtractionModelWrapper;
+import com.fainancial.KnowledgeBuilderService.util.ExtractionModelParseUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 

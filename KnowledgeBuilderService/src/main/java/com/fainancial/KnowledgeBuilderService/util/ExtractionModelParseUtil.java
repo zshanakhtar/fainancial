@@ -1,7 +1,7 @@
-package com.fainancial.KnowledgeBuilder.util;
+package com.fainancial.KnowledgeBuilderService.util;
 
-import com.fainancial.KnowledgeBuilder.constants.FileConstants;
-import com.fainancial.KnowledgeBuilder.model.ExtractionModel;
+import com.fainancial.KnowledgeBuilderService.constants.FileConstants;
+import com.fainancial.KnowledgeBuilderService.model.ExtractionModel;
 import lombok.experimental.UtilityClass;
 import lombok.extern.slf4j.Slf4j;
 

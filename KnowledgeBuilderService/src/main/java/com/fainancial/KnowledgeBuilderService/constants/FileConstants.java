@@ -1,4 +1,4 @@
-package com.fainancial.KnowledgeBuilder.constants;
+package com.fainancial.KnowledgeBuilderService.constants;
 
 public class FileConstants {
     public static final String FILE_NAME = "rules.txt";

@@ -1,4 +1,4 @@
-package com.fainancial.KnowledgeBuilder;
+package com.fainancial.KnowledgeBuilderService;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

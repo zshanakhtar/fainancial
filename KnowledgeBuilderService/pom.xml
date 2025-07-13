@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.fainancial</groupId>
-	<artifactId>KnowledgeBuilder</artifactId>
+	<artifactId>KnowledgeBuilderService</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>KnowledgeBuilder</name>
+	<name>KnowledgeBuilderService</name>
 	<description>Knowledge builder tool</description>
 	<url/>
 	<licenses>
