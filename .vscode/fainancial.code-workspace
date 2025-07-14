@@ -2,7 +2,7 @@
     "folders": [
         {
             "name": "backend",
-            "path": "../KnowledgeBuilder"
+            "path": "../KnowledgeBuilderService"
         },
         {
             "name": "frontend",
