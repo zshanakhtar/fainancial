@@ -57,30 +57,6 @@ public class InfoExtractionService {
         return extractionModelWrapper;
     }
 
-    public ExtractionModelWrapper extractRulesOnly() {
-        log.info("Starting rule extraction process (without saving to Neo4j)...");
-
-        ExtractionModelWrapper extractionModelWrapper = new ExtractionModelWrapper();
-        List<ExtractionModel> extractionModels = new ArrayList<>();
-
-        try {
-
-            extractionModels = readFromClasspath();
-            if (extractionModels.isEmpty()) {
-                log.info("No files found in classpath, trying file system...");
-                extractionModels = readFromFileSystem();
-            }
-
-            extractionModelWrapper.setExtractionModelList(extractionModels);
-            log.info("Successfully extracted {} rules (not saved to Neo4j)", extractionModels.size());
-
-        } catch (Exception e) {
-            log.error("Error during rule extraction", e);
-        }
-
-        return extractionModelWrapper;
-    }
-
     private List<ExtractionModel> readFromClasspath() {
         List<ExtractionModel> extractionModels = new ArrayList<>();
 
