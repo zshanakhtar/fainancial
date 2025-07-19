@@ -1,6 +1,6 @@
 package com.fainancial.UploadService.validator;
 
-import com.fainancial.UploadService.constants.FileType;
+import com.fainancial.enums.FileType;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.tika.Tika;
 import org.springframework.stereotype.Service;

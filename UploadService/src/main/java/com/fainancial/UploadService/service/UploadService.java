@@ -1,7 +1,7 @@
 package com.fainancial.UploadService.service;
 
+import com.fainancial.dao.RequestTableDao;
 import com.fainancial.enums.OverallStatus;
-import com.fainancial.UploadService.dao.RequestTableDao;
 import com.fainancial.UploadService.dto.response.UploadResponse;
 import com.fainancial.UploadService.validator.FileValidator;
 import com.fainancial.model.RequestTable;

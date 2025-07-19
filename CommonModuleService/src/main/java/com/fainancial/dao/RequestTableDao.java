@@ -1,6 +1,7 @@
-package com.fainancial.UploadService.dao;
+package com.fainancial.dao;
 
 import com.fainancial.model.RequestTable;
+
 
 public interface RequestTableDao {
 

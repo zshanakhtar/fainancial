@@ -1,4 +1,4 @@
-package com.fainancial.UploadService.constants;
+package com.fainancial.enums;
 
 import lombok.Getter;
 
