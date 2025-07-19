@@ -1,6 +1,7 @@
-package com.fainancial.UploadService.document;
+package com.fainancial.model;
 
-import com.fainancial.UploadService.constants.OverallStatus;
+
+import com.fainancial.enums.OverallStatus;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package com.fainancial.UploadService.constants;
+package com.fainancial.enums;
 
 public enum OverallStatus {
     PROCESSING("In Progress"),

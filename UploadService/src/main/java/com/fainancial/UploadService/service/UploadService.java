@@ -1,10 +1,10 @@
 package com.fainancial.UploadService.service;
 
-import com.fainancial.UploadService.constants.OverallStatus;
+import com.fainancial.enums.OverallStatus;
 import com.fainancial.UploadService.dao.RequestTableDao;
-import com.fainancial.UploadService.document.RequestTable;
 import com.fainancial.UploadService.dto.response.UploadResponse;
 import com.fainancial.UploadService.validator.FileValidator;
+import com.fainancial.model.RequestTable;
 import com.mongodb.MongoException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +17,7 @@ import java.io.IOException;
 
 import static com.fainancial.UploadService.constants.UploadConstants.MAX_FILE_SIZE;
 import static com.fainancial.UploadService.constants.UploadConstants.UPLOAD_VAULT;
-import static com.fainancial.UploadService.document.RequestTable.createRequestTable;
+import static com.fainancial.model.RequestTable.createRequestTable;
 
 @Slf4j
 @Service

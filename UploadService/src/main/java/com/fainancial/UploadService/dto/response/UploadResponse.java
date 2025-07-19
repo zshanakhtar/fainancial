@@ -1,6 +1,6 @@
 package com.fainancial.UploadService.dto.response;
 
-import com.fainancial.UploadService.document.RequestTable;
+import com.fainancial.model.RequestTable;
 import lombok.Builder;
 import lombok.Data;
 

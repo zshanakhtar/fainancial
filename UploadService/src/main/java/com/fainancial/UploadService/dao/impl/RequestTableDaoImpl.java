@@ -1,8 +1,8 @@
 package com.fainancial.UploadService.dao.impl;
 
 import com.fainancial.UploadService.dao.RequestTableDao;
-import com.fainancial.UploadService.document.RequestTable;
 import com.fainancial.UploadService.repository.RequestTableRepository;
+import com.fainancial.model.RequestTable;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
